@@ -4,7 +4,7 @@ import StudentsLaboratoriesMV.controller.LaboratoriesController;
 import StudentsLaboratoriesMV.model.Laboratory;
 import StudentsLaboratoriesMV.model.Student;
 import StudentsLaboratoriesMV.validator.Validator;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.Date;
 
