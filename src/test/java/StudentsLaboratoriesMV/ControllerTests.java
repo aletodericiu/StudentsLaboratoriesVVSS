@@ -10,10 +10,10 @@ import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Tests {
+public class ControllerTests {
 
 	@Test
-	public void testStudentValidation() {
+	public void testAddStudent() {
 		Laboratory lab = new Laboratory();
 		Validator val = new Validator();
 		LaboratoriesController ctrl = new LaboratoriesController("students.txt","laboratories.txt");
@@ -31,7 +31,7 @@ public class Tests {
     }
 	
 	@Test
-	public void testLaboratoryValidation() {
+	public void testAddLaboratory() {
 		Student std = new Student();
 		Validator val = new Validator();
 		LaboratoriesController ctrl = new LaboratoriesController("students.txt","laboratories.txt");
