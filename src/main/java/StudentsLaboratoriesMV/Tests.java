@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class Tests {
 
 	@Test
-	public void test1() {
+	public void testStudentValidation() {
 		Laboratory lab = new Laboratory();
 		Validator val = new Validator();
 		LaboratoriesController ctrl = new LaboratoriesController("students.txt","laboratories.txt");
@@ -31,7 +31,7 @@ public class Tests {
     }
 	
 	@Test
-	public void test2() {
+	public void testLaboratoryValidation() {
 		Student std = new Student();
 		Validator val = new Validator();
 		LaboratoriesController ctrl = new LaboratoriesController("students.txt","laboratories.txt");
